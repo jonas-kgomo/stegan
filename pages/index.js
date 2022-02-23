@@ -20,17 +20,17 @@ export default function Home() {
 </h1>
          
         <p className="description py-10 font-light text-gray-400">
-        A marketplace for sharing encrypted, verifiable and fully owned NFTs.
+        A protocol for sharing encrypted, verifiable and fully owned NFTs.
         Share public NFTs that are only viewable, and decipherable by the owner. <br/> 
         Truly own your NFT, no more screenshots and downloads of your precious art<br/>
 
-<span>HINT: </span>A stegan NFT is an image that is hidden within another image.
-        
+<span className='text-base'>HINT: A stegan NFT is an image that is hidden within another image using steganographic encryption.
+        </span>
        
        <p className="uppercase text-gray-500 mt-4 text-xs">coming soon</p>
        <br/>
 
-       <a href="https://tally.so/r/wvV54w" className="text-base bg-gradient-to-r from-blue-400 via-indigo-500 to-purple-500 p-2 my-2 mx-2 text-white  rounded-lg">Join Waitlist</a> 
+       <a href="https://tally.so/r/wvV54w" className="text-base bg-gradient-to-r from-blue-400 via-indigo-500 to-purple-500 p-2 my-2 mx-2 text-indigo-100  rounded-lg">Join Waitlist</a> 
          
        <div className='text-white p-2 mx-2 my-2 rounded-lg'>
   <a className="donate-with-crypto text-base bg-gradient-to-r from-blue-400 via-indigo-500 to-purple-500 p-2 my-2 mx-2 text-white  rounded-lg" 
