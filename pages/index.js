@@ -30,15 +30,15 @@ export default function Home() {
        <p className="uppercase text-gray-500 mt-4 text-xs">coming soon</p>
        <br/>
 
+       
+       <div className='flex text-white mx-auto justify-center'>
        <a href="https://tally.so/r/wvV54w" className="text-base bg-gradient-to-r from-blue-400 via-indigo-500 to-purple-500 p-2 my-2 mx-2 text-indigo-100  rounded-lg">Join Waitlist</a> 
          
-       <div className='text-white p-2 mx-2 my-2 rounded-lg'>
-  <a className="donate-with-crypto text-base bg-gradient-to-r from-blue-400 via-indigo-500 to-purple-500 p-2 my-2 mx-2 text-white  rounded-lg" 
+  <a className="donate-with-crypto text-base bg-gradient-to-r from-blue-400 via-indigo-500 to-purple-500  p-2 mx-2 my-2 rounded-lg text-white  rounded-lg" 
      href="https://commerce.coinbase.com/checkout/63b61224-a61e-42fb-adb1-19bb1b55fc8f">
     Donate with Crypto
   </a>
-  <script src="https://commerce.coinbase.com/v1/checkout.js?version=201807">
-  </script>
+   
 </div>
         </p>
           
