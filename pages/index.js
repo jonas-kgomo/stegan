@@ -7,24 +7,38 @@ export default function Home() {
   return (
  <div className="bg-black h-full" >
       <Head>
-        <title>Substrate</title>
+        <title>Stegan</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className="bg-black h-full">
 
-        <h2 ><b className="doom text-white">Streaming mobile apps <br/>
-directly to your device</b> </h2>
+      <h1
+  className="font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-indigo-500 to-pink-400"
+>
+ STEGAN
+</h1>
          
-        <p className="description py-10 text-gray-400">
-         Substrate is the cloud app streaming platform. <br/> 
-Deploy your app to the cloud, no AppStore required.
+        <p className="description py-10 font-light text-gray-400">
+        A marketplace for sharing encrypted and fully owned NFTs.
+        Share public NFTs that are only viewable and decipherable by the owner <br/>
+
+<span>HINT: </span>A stegan NFT is an image that is hidden within another image.
+        
        
        <p className="uppercase text-gray-500 mt-4 text-xs">coming soon</p>
        <br/>
 
        <button className="text-base bg-gradient-to-r from-blue-400 via-indigo-500 to-purple-500 p-2 my-2 mx-2 text-white  rounded-lg">Join Waitlist</button> 
          
+       <div className='text-white p-2 mx-2 my-2 rounded-lg'>
+  <a className="donate-with-crypto text-base bg-gradient-to-r from-blue-400 via-indigo-500 to-purple-500 p-2 my-2 mx-2 text-white  rounded-lg" 
+     href="https://commerce.coinbase.com/checkout/63b61224-a61e-42fb-adb1-19bb1b55fc8f">
+    Donate with Crypto
+  </a>
+  <script src="https://commerce.coinbase.com/v1/checkout.js?version=201807">
+  </script>
+</div>
         </p>
           
 
